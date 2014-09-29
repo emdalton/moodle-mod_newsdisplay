@@ -268,6 +268,7 @@ function print_newsdisplay($course) {
 	
 	    //echo $this->output->heading(get_string('latestmessage','format_noticebd'), 3, 'sectionname');
 	    //echo '<div class="subscribelink">', forum_get_subscribe_link($forum, $context), '</div>';
+	    //return newsdisplay_print_latest_discussions($course, $forum, 1, 'plain', '', -1, -1, -1, 100, $cm);
 	    return newsdisplay_print_latest_discussions($course, $forum, 1, 'plain', '', -1, -1, -1, 100, $cm);
 	
 	} else {
